@@ -94,7 +94,7 @@
 &kp DEL        &kp Z            &kp L        &lt 2 D       &kp C          &kp B                              &kp UP                &kp J    &kp Y               &lt 2 O               &kp U        &kp SEMICOLON  &kp CAPS
 &kp BACKSPACE  &HML LEFT_GUI N  &HML LALT R  &HML LCTRL S  &HML LSHFT T   &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp P    &HMR RIGHT_SHIFT H  &HMR RIGHT_CONTROL E  &HMR RALT A  &HMR RGUI I    &kp SQT
 &kp ESC        &kp X            &kp Q        &kp M         &lt 1 W        &kp V       &kp SPACE              &kp DOWN              &kp K    &lt 1 F             &kp COMMA             &kp DOT      &kp FSLH       &tog 3
-                                             &kp ENTER     &kp BACKSPACE  &kp DELETE                                               &kp TAB  &kp SPACE           &kp SPACE
+                                             &kp KP_ENTER  &kp BACKSPACE  &kp DELETE                                               &kp TAB  &kp SPACE           &kp SPACE
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -103,10 +103,10 @@
         NUMBER {
             display-name = "NUMBER";
             bindings = <
-&trans  &none      &kp HOME        &kp UP_ARROW    &kp END          &none                                  &mmv MOVE_UP                     &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp SLASH   &kp BSPC
-&trans  &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &none
-&trans  &kp ESC    &kp LC(LS(V))   &kp LC(C)       &kp LC(V)        &none    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &none
-                                   &trans          &trans           &trans                                                                  &kp ENTER     &kp NUMBER_0  &trans
+&trans  &none         &kp HOME        &kp UP_ARROW    &kp END          &none                                  &mmv MOVE_UP                     &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp SLASH   &kp BSPC
+&trans  &kp KP_ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &none
+&trans  &kp ESC       &kp LC(LS(V))   &kp LC(C)       &kp LC(V)        &none    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &none
+                                      &trans          &trans           &trans                                                                  &kp KP_ENTER  &kp NUMBER_0  &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -118,7 +118,7 @@
 &trans  &none            &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp PERIOD                             &mmv MOVE_UP                     &kp AMPERSAND  &kp RIGHT_BRACKET      &kp LEFT_BRACKET      &kp UNDERSCORE  &kp PERCENT   &kp BSPC
 &trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PIPE       &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp SQT         &kp QUESTION  &none
 &trans  &kp CARET        &kp SLASH      &kp ASTERISK      &kp BACKSLASH      &kp PERCENT  &trans                    &mmv MOVE_DOWN                   &kp TILDE      &kp RIGHT_BRACE        &kp LBRC              &kp DOLLAR      &kp AT_SIGN   &none
-                                        &trans            &trans             &kp SPACE                                                               &kp RET        &trans                 &trans
+                                        &trans            &trans             &kp SPACE                                                               &kp KP_ENTER   &trans                 &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
